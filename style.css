@@ -1,147 +1,152 @@
-body{
-    font-family: 'Nunito';
-    overflow-x: hidden;
+body {
+  font-family: "Nunito";
+  overflow-x: hidden;
 }
-.nav-link{
-    color: white;
+.nav-link {
+  color: white;
 }
-.navbar-brand{
-    color: #7f56fd !important;
+.navbar-brand {
+  color: #7f56fd !important;
 }
-.header{
-    background-image: linear-gradient(rgba(108,76,206,0.9), rgba(127,86,253,0.9)), url(./assets/img/Misc4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    height: 100vh;
+.header {
+  background-image: linear-gradient(
+      rgba(108, 76, 206, 0.9),
+      rgba(127, 86, 253, 0.9)
+    ),
+    url(./assets/img/Misc4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100vh;
 }
-.header-content{
-    padding-top: 200px;
-    padding-bottom: 140px;
+.header-content {
+  padding-top: 200px;
+  padding-bottom: 140px;
 }
-.header__content__sub-title li{
-    display: inline-block;
-    font-size: 15px;
-    color: #e6e6e6;
+.header__content__sub-title li {
+  display: inline-block;
+  font-size: 15px;
+  color: #e6e6e6;
 }
-.header-button{
-    padding: 11px 30px;
-    background-color: #fff;
-    border-radius: 30px;
-    display: inline-block;
-    font-size: 15px;
-    color: #7f56fd;
-    font-weight: bold;
-    margin-top: 30px;
-    text-decoration: none;
+.header-button {
+  padding: 11px 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 15px;
+  color: #7f56fd;
+  font-weight: bold;
+  margin-top: 30px;
+  text-decoration: none;
 }
-.social-icon ul li{
-    display: inline-block;
-    align-items: center;
-    margin: 0px 30px;
-    font-size: 40px;
-
-} 
-.social-icon ul li a{
-    color: white;
+.social-icon ul li {
+  display: inline-block;
+  align-items: center;
+  margin: 0px 30px;
+  font-size: 40px;
+}
+.social-icon ul li a {
+  color: white;
 }
 @media screen and (max-width: 479px) {
-    .about-img img{
-        width: 90%;
-    }
-    .social-icon ul li{
-        margin: 0px 15px;
-        font-size: 25px;
-    } 
-}
-.services-container{
-    background-image: linear-gradient(rgba(108,76,206,0.9), rgba(127,86,253,0.9)), url(./assets/img/Colour11.jpg);
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-    min-height: 100vh;
-}
-.card-body{
-    color: #7f56fd;
-
-}
-.sev1-icon, .sev2-icon, .sev3-icon{
-    font-size: 50px;
-    color: #7f56fd;
-}
-.cert-cont{
-    width: fit-content;
-}
-.cert-img{
-    width: 100%;
-}
-
-.portfolio__single-section{
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 40px;
-  
-}
-  
-.portfolio__single-section__image{
-   display: block;
-   height: 60%;
-   position:relative;
-   border-radius: 10px;
-}
-.portfolio__single-section__search-icon{
-   position: absolute;
-   left: 45%;
-   top: 50%;
-   -webkit-transform: translateY(-50%);
-   transform: translateY(-50%);
-}
-  
-.portfolio__single-section .overlay-content{
-    position: absolute;
-    bottom: 25px;
-    margin-left: 35px;
-    z-index: 10;
-}
-  
-.portfolio__single-section__overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;  
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
-    background-color: rgba(133, 91, 249, .9);
-    border-radius: 10px;
-}
-  
-.portfolio__single-section:hover .portfolio__single-section__overlay{
-    opacity: 1;
-}
-  
-  @media(max-width: 991px) {
-      .portfolio__single-section{
-          max-width: 340px;
-          margin-right: auto;
-          margin-left: auto;
-      }
-  
-}
-.footer-contact li{
-    display: inline-block;
-}
-  
-.footer-contact li a{
-    font-size: 15px;
-    color: #9ca1a3;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    text-decoration: none;
+  .about-img img {
+    width: 90%;
   }
+  .social-icon ul li {
+    margin: 0px 15px;
+    font-size: 25px;
+  }
+}
+.services-container {
+  background-image: linear-gradient(
+      rgba(108, 76, 206, 0.9),
+      rgba(127, 86, 253, 0.9)
+    ),
+    url(./assets/img/Colour11.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+.card-body {
+  color: #7f56fd;
+}
+.sev1-icon,
+.sev2-icon,
+.sev3-icon {
+  font-size: 50px;
+  color: #7f56fd;
+}
+.cert-cont {
+  width: fit-content;
+}
+.cert-img {
+  width: 100%;
+}
 
-  
+.portfolio__single-section {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.portfolio__single-section__image {
+  display: block;
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+.portfolio__single-section__search-icon {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.portfolio__single-section .overlay-content {
+  position: absolute;
+  bottom: 25px;
+  margin-left: 35px;
+  z-index: 10;
+}
+
+.portfolio__single-section__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-color: rgba(133, 91, 249, 0.9);
+  border-radius: 10px;
+}
+
+.portfolio__single-section:hover .portfolio__single-section__overlay {
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .portfolio__single-section {
+    max-width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.footer-contact li {
+  display: inline-block;
+}
+
+.footer-contact li a {
+  font-size: 15px;
+  color: #9ca1a3;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
